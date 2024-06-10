@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Fonts Nunito --> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
+       
+    <link rel="stylesheet" href="../css/styles.css">
+        <title>Iniciar Sesión</title>
+    </head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <section class="nav_logo">
+           <a href="../index.html"> <img class="logo_navbar" src="../img/logo_vineft.png" alt="Vineft"></a>
+        </section>
+        <div class="nav_links">
+            <ul>
+                <li><a href="../pages/productos.html">Mis vinos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contactanos</a></li>
+                <li class="ingresar" ><a href="../pages/inicio_sesion.html">Ingresar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+  
+
+
+        <main>
+
+
+            <div class="semi_sesion">
+                <section class="sesion_container">
+                    <h2>Bienvenido</h2>
+                    <form action="inicio_sesion.php" method="post"></form>    
+
+                        <label class="usuario" for=""> Usuario</label>
+                            <input class="usuario_mail" type="email" name="mail" id="mail">
+                        
+                        <label class="contrasena" for=""> Contraseña</label>
+                            <input class="contrasena_container" type="password" name="password" id="password" placeholder="contraseña">
+                    
+                        <a href="./productos.html"><input class="enviar" type="submit" value="Ingresar"></a>
+                </section>
+            </div>
+
+
+        </main>
+
+
+
+    
+        <footer>
+            <section class="semifooter">
+                <div class="texto_footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quibusdam quas! Quae aperiam voluptate dignissimos, blanditiis perspiciatis accusantium doloribus illum!</div>
+                
+                <div class="logos_footer">
+                    <img src="../img/logo_vineft.png" alt="Vineft">
+                </div>
+                
+                <div class="hiper_footer">
+                    <ul>
+                        <li><a href="">Términos & Condiciones</a></li>
+                        <li><a href="">Política de Privacidad</a></li>
+                        <li><a href="">Ayuda</a></li>
+                    </ul>
+                </div>
+        
+                <div class="social">
+                    <img class="redes" src="../img/redes/Instagram.png" alt="Instagram">
+                    <img class="redes" src="../img/redes/X.png" alt="X">
+                    <img class="redes" src="../img/redes/LinkedIn.png" alt="LinkedIn">
+                    <img class="redes" src="../img/redes/TikTok.png" alt="TikTok">
+                </div>
+        
+        
+            </section>
+        </footer>
+
+
+
+</body>
+</html>

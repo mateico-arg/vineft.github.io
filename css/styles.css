@@ -1,0 +1,422 @@
+
+
+*{
+    font-family: sans-serif;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4;
+}
+
+
+body {
+    background: linear-gradient(to bottom right, #1b071c, #96177C);
+}
+
+/* navbar */
+.navbar {
+    background-color: rgba(209, 209, 209, 0.1);
+    height: 80px;;
+    display: flex;
+}
+.nav_links {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.nav_logo {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo_navbar {
+    width: 150px;
+    margin-left: 70px;
+}
+.nav_links li {
+    display: inline-block;
+    margin-right: 80px;
+}
+.ingresar {
+    background-color: brown;
+    padding: 8px 20px 8px 20px;
+    border-radius: 100px;
+}
+
+/* primero */
+.primero {
+    height: 600px;
+}
+.primero_medio {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.foto_principal {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    height: 100%;
+    width: 50%;
+}
+.titulo h1 {
+    font-size: 50px;
+    margin-top: 180px;
+}
+.titulo h2 {
+   font-weight: 100;
+   margin-top: 30px;
+}
+.foto_finca {
+    width: 450px;
+    border-radius: 7%;
+}
+
+
+/* segunda */
+.banner {
+    height: 400px;
+    background-color: rgba(228, 228, 228, 0.068);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carta {
+    height: 300px;
+    margin: 25px;
+}
+
+
+
+
+
+.funciona {
+    height: 800px;
+    background-color: rgb(95, 163, 18);
+}
+
+.acompanan {
+    height: 400px;
+}
+.acompanan h3 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+
+}
+.logo{
+    width: 10cm;
+    height: 5cm;
+}
+.foto_perfil {
+    border-radius: 100%;
+    width: 250px;
+}
+
+
+
+/* cuarto */
+.cuarto {
+    height: 750px;
+    margin-top: 60px ;
+}
+.cuarto_medio {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.foto_secundaria {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto_bodega {
+    height: 85%;
+    width: auto;
+    border-radius: 7%;
+}
+.texto {
+    height: 100%;
+    width: 50%;
+    
+}
+.texto h2 {
+    font-size: 40px;
+    margin-top: 150px;
+}
+.texto h3 {
+   font-weight: 100;
+   margin-top: 30px;
+}
+
+
+/*quinto*/
+.quinto {
+    height: 650px;
+    display: flex;
+}
+.quinto_medio {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foto_uno {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.foto_dos {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
+.foto_perfil {
+    border-radius: 100%;
+    width: 320px;
+}
+.juli {
+    align-items: flex-end;
+    height: 30%;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start; /* Centra verticalmente el contenido */
+}
+.coque {
+    height: 30%;
+    width: 50%;
+    align-items: flex-start; /* Centra verticalmente el contenido */
+    display: inline-block;
+    text-align: center;
+}
+.coque h4, .juli h4 {
+    margin: 10px;
+    font-size: 25px;
+}
+.coque h5, .juli h5 {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.coque a, .juli a {
+    margin: px;
+}
+.linkedin {
+    width: 40px;
+}
+
+
+
+/*sexto*/
+
+.formulario{
+    height: 500px;
+    margin-top: 60px ;
+}
+.formulario_medio {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.texto_formulario {
+    background-color: rgba(137, 80, 31, 0.165);
+    height: 100%;
+    width: 50%;
+    font-size: 45px;
+}
+.texto_formulario h3 {
+    font-size: 45px;
+}
+.formulario_cuadro {
+    background-color: rgba(25, 166, 72, 0.165);
+    height: 100%;
+    width: 50%;
+}
+
+
+/* Footer */
+.redes {
+    width: 40px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.logos_footer img {
+    width: 200px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.hiper_footer ul li  {
+    display: inline-block;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: rgba(209, 209, 209, 0.025);
+    height: 250px;
+    display: flex;
+}
+.semifooter {
+    border-top: 2px solid rgba(128, 128, 128, 0.371);
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center; /* Alinea el contenido en el centro horizontalmente */
+    margin: auto; /* Centra horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos hijos se envuelvan en varias líneas */
+}
+.texto_footer {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
+.logos_footer {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    justify-content: flex-end; /* Mueve el contenido a la derecha */
+}
+.hiper_footer {
+    height: 30%;
+    width: 50%;
+    display: flex;
+    align-items: flex-end; /* Centra verticalmente el contenido */
+    justify-content: left; /* Centra horizontalmente el contenido */
+}
+.social {
+    height: 30%;
+    width: 50%;
+    display: flex;
+    align-items: flex-end; /* Centra verticalmente el contenido */
+    justify-content: right; /* Centra horizontalmente el contenido */
+}
+
+
+/* Vista productos */
+.bodyproducto {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
+
+    grid-template-areas: 
+    "nav nav nav"
+    "side prod prod"
+    "footer footer footer";
+}
+header {
+    grid-area: nav;
+}
+.side {
+    background-color:#231742;
+    grid-area: side;
+    width: 250px;
+    padding-top: 55px;
+    padding-left: 30px;
+}
+
+.producto {
+    grid-area: prod;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 40px;
+    padding-right: 70px;
+}
+.footer {
+    grid-area: footer;
+}
+
+.cont-prod {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(248, 248, 248, 0.49);
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+.cont-info { 
+    width: 210px;
+    height: 200px;
+    border-radius: 35px;
+    background-color: rgba(240, 240, 240, 0.402);
+    display: block;
+    justify-content: center;
+    margin: 20px 5px 0px 30px;
+
+}
+.cont-vino {
+    width: 110px;
+    height: 250px;
+    background-color: rgba(240, 240, 240, 0.402);
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+
+}
+.botella {
+    height: 100%;
+}
+
+
+
+
+
+
+
+/*vista sesion*/
+.semi_sesion {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sesion_container {
+    background-color: rgba(221, 221, 221, 0.323);
+    height: 450px ;
+    width: 400px;
+    border-radius: 50px;  
+    display: flex;
+    flex-direction: column; /* Para colocar los elementos uno encima del otro */
+    align-items: center; /* Para centrar los elementos horizontalmente */
+    justify-content: center; /* Para centrar los elementos verticalmente */
+}
+.usuario, .usuario_mail, .contrasena, .contrasena_container {
+margin: 5px;
+}
+
+
+
+
+
+.enviar {
+    margin: 20px;
+    padding: 10px 40px 10px 40px;
+    background-color: rgb(34, 10, 36);
+    border-radius: 50px;
+    border: none;
+}
